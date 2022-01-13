@@ -1,0 +1,116 @@
+* {
+  margin     : 0;
+  padding    : 0;
+  box-sizing : border-box;
+  line-height: 1.6;
+}
+
+.App {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  padding       : 1%;
+}
+
+.App>div {
+  margin-bottom: 2%;
+}
+
+.overall {
+  border   : groove;
+  display  : flex;
+  padding  : 1%;
+  color    : rgb(128, 128, 228);
+  font-size: 1.8vw;
+  width    : fit-content;
+
+}
+
+.overall :first-child {
+  padding: .5%
+}
+
+.overall h1 {
+  width: fit-content;
+
+  color           : red;
+  background-color: rgba(255, 0, 0, 0.336);
+}
+
+.statewise {
+  width    : 70%;
+  font-size: 1.5vw;
+}
+
+table {
+  width          : 100%;
+  border-collapse: collapse;
+
+}
+
+th,
+td {
+  text-align : center;
+  font-weight: bolder;
+  border     : solid 5px #ffffff;
+  padding    : 1%;
+  color      : rgb(128, 128, 228);
+
+}
+
+tr:nth-of-type(odd) {
+  background-color: rgba(154, 154, 207, 0.13);
+
+}
+
+tr:nth-of-type(even) {
+  background-color: #ffffff
+}
+
+.number {
+  text-align: right;
+}
+
+.recovery {
+  color: #008000;
+}
+
+.active {
+  color: #ff0000;
+}
+
+.searchstate {
+  width: 90%;
+
+}
+
+input {
+  width    : 100%;
+  padding  : .5%;
+  font-size: 2vw;
+}
+
+.displaysearch {
+  margin-top: 2%;
+  display   : flex;
+}
+
+.displaysearch>div {
+  text-align: center;
+  width     : 25%;
+  border    : groove;
+  padding   : 1%;
+  font-size : 2vw;
+}
+
+.confirmed {
+  color: #0000ff;
+}
+
+.recovered {
+  color: #008000;
+}
+
+.displaysearch>div :hover {
+  background-color: rgba(128, 128, 128, 0.178);
+}
